@@ -1,3 +1,0 @@
-total 1
--rw-r--r-- 1 kumar 197609 242 Oct 13 21:44 size.txt
--rw-r--r-- 1 kumar 197609   0 Oct 13 21:45 #verify_token
