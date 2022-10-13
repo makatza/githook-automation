@@ -1,0 +1,7 @@
+#!/bin/sh ;
+
+declare -a arr=("#verify_token")
+
+git diff --cached --name-only | xargs grep --with-filename -n "$arr" && echo "COMMIT REJECTED! Found "$arr" references. Please remove them before commiting." && exit 1
+
+exit 0
